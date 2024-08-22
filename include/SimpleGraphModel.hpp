@@ -1,4 +1,6 @@
-#pragma once
+#ifndef SIMPLE_GRAPH_MODEL_HPP_HEADER
+#define SIMPLE_GRAPH_MODEL_HPP_HEADER
+// copied this file from the nodeeditor examples (vertical layout)
 
 #include <QtCore/QJsonObject>
 #include <QtCore/QPointF>
@@ -108,3 +110,4 @@ private:
     /// A convenience variable needed for generating unique node ids.
     NodeId _nextNodeId;
 };
+#endif // SIMPLE_GRAPH_MODEL_HPP_HEADER
