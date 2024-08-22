@@ -1,0 +1,3 @@
+[submodule "nodeeditor"]
+	path = ThirdParty/nodeeditor
+	url = https://github.com/paceholder/nodeeditor.git
